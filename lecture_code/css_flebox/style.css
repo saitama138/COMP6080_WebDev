@@ -1,0 +1,18 @@
+.container {
+	display : flex;
+	flex-direction : row-reverse;
+	justify-content : flex-end;
+	align-items : flex-start;
+	height : 500px;
+	background : blue;
+	flex-wrap : wrap;
+	align-content : center;
+}
+
+.box {
+	background-color : #F1DFD1;
+	flex : 1;
+	color : #CE1F26;
+	padding : 10px;
+	text-align: center;
+}

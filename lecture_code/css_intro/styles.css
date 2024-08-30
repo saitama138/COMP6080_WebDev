@@ -1,0 +1,65 @@
+h3 {
+	color : purple !important;
+}
+
+.dog.mouse {
+	color : red;
+}
+
+#cat.mouse {
+	color : green;
+}
+
+div.A > span.B {
+	color:red;
+	font-weight: normal;
+}
+
+.bluetext {
+	color : pink;
+	font-weight:bold;
+}
+
+.bluetext {
+	color : blue;
+}
+
+.redtext {
+	color : red;
+}
+
+a {
+	color : salmon;
+}
+
+#greentext {
+	color:green;
+}
+
+a:hover {
+	text-decoration:none;
+}
+input[type="radio"] {
+	width: 100px;
+	height: 100px;
+}
+
+.name-fields {
+	color : blue;
+}
+
+.name-fields:disabled {
+	color:red;
+}
+
+p::first-letter {
+	color:darkcyan;
+}
+
+p::after {
+	content : '.';
+}
+
+.bold {
+	font-weight:bold;
+}
